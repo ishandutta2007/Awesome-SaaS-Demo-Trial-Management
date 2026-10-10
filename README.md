@@ -4,6 +4,7 @@
   <a href="https://github.com/ishandutta2007/Awesome-SaaS-Demo-Trial-Management/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-SaaS-Demo-Trial-Management?style=for-the-badge&color=gold&logo=github" alt="GitHub Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-SaaS-Demo-Trial-Management/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-SaaS-Demo-Trial-Management?style=for-the-badge&color=blue&logo=github" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-SaaS-Demo-Trial-Management/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 </p>
 
 <p align="center">
@@ -35,6 +36,7 @@ This repository tracks top-tier **commercial SaaS demo and trial management plat
 - [🤝 How to Contribute](#-how-to-contribute)
 - [💖 Support & Sponsorship](#-support--sponsorship)
 - [⚠️ Disclaimer & Security Guidelines](#%EF%B8%8F-disclaimer--security-guidelines)
+- [📈 Star History](#-star-history)
 
 ---
 
@@ -129,6 +131,12 @@ If you find this repository valuable for your software engineering or product gr
 - **Data Privacy & GDPR**: Demo environments often touch real UI schemas and lead information. Ensure all captured HTML/CSS data is scrubbed of PII (Personally Identifiable Information) before embedding public demos.
 - **Production Data Isolation**: Never connect live sales demos directly to production databases. Tools like **DemoKit** and **Saleo** facilitate synthetic data injection for safety.
 - **License Verification**: Always inspect repository licenses (e.g., AGPL-3.0 vs MIT) prior to self-hosting open-source demo engines in commercial infrastructure.
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-SaaS-Demo-Trial-Management&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-SaaS-Demo-Trial-Management&type=date&legend=top-left)
 
 ---
 

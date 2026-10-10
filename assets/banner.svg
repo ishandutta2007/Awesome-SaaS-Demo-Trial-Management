@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+
+    <!-- Accent Gradients -->
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="50%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#ec4899"/>
+    </linearGradient>
+
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Card Background Gradient -->
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02"/>
+    </linearGradient>
+
+    <!-- Drop Shadow Filter -->
+    <filter id="dropShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="15" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+
+    <filter id="glowFilter" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <style>
+      .title {
+        font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 800;
+        font-size: 48px;
+        fill: #ffffff;
+      }
+      .subtitle {
+        font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 500;
+        font-size: 22px;
+        fill: #cbd5e1;
+      }
+      .badge-text {
+        font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 600;
+        font-size: 14px;
+        fill: #e2e8f0;
+      }
+      
+      /* Subtle CSS Animations for Dynamic Feel */
+      @keyframes floatPulse {
+        0% { transform: translateY(0px) scale(1); opacity: 0.4; }
+        50% { transform: translateY(-12px) scale(1.05); opacity: 0.8; }
+        100% { transform: translateY(0px) scale(1); opacity: 0.4; }
+      }
+
+      @keyframes shimmerWave {
+        0% { stroke-dashoffset: 600; }
+        100% { stroke-dashoffset: 0; }
+      }
+
+      @keyframes orbitalSpin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+
+      .animated-circle-1 {
+        animation: floatPulse 6s ease-in-out infinite;
+        transform-origin: center;
+      }
+      .animated-circle-2 {
+        animation: floatPulse 8s ease-in-out infinite 2s;
+        transform-origin: center;
+      }
+      .shimmer-line {
+        stroke-dasharray: 200 400;
+        animation: shimmerWave 10s linear infinite;
+      }
+      .spin-element {
+        animation: orbitalSpin 25s linear infinite;
+        transform-origin: 1050px 100px;
+      }
+    </style>
+  </defs>
+
+  <!-- Base Canvas Background -->
+  <rect width="1200" height="400" fill="url(#bgGrad)" rx="16"/>
+
+  <!-- Tech Grid Lines Background -->
+  <g opacity="0.08" stroke="#ffffff" stroke-width="1">
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40"/>
+    </pattern>
+    <rect width="1200" height="400" fill="url(#grid)"/>
+  </g>
+
+  <!-- Dynamic Animated Background Orbs (Kept in Background) -->
+  <circle class="animated-circle-1" cx="150" cy="80" r="180" fill="url(#glowGrad)"/>
+  <circle class="animated-circle-2" cx="1050" cy="320" r="220" fill="url(#glowGrad)"/>
+
+  <!-- Geometric Decorative Lines in Background -->
+  <path class="shimmer-line" d="M -100 350 Q 300 150 700 380 T 1300 200" fill="none" stroke="url(#primaryGrad)" stroke-width="3" opacity="0.4"/>
+  <path class="shimmer-line" d="M -50 50 Q 400 300 850 50 T 1250 300" fill="none" stroke="#3b82f6" stroke-width="2" opacity="0.3"/>
+
+  <!-- Decorative Orbit Elements (Top Right Background) -->
+  <g class="spin-element" opacity="0.25">
+    <circle cx="1050" cy="100" r="80" fill="none" stroke="#8b5cf6" stroke-width="1.5" stroke-dasharray="8 8"/>
+    <circle cx="1050" cy="100" r="120" fill="none" stroke="#ec4899" stroke-width="1"/>
+    <circle cx="1130" cy="100" r="6" fill="#a855f7"/>
+  </g>
+
+  <!-- Main Hero Content Container Card (Glassmorphism effect) -->
+  <rect x="60" y="50" width="1080" height="300" rx="20" fill="url(#cardGrad)" stroke="#ffffff" stroke-opacity="0.15" stroke-width="1.5" filter="url(#dropShadow)"/>
+
+  <!-- Header Category Pill / Tag -->
+  <g transform="translate(100, 95)">
+    <rect width="260" height="36" rx="18" fill="url(#primaryGrad)"/>
+    <text x="130" y="23" class="badge-text" text-anchor="middle">🚀 PRODUCT-LED GROWTH (PLG)</text>
+  </g>
+
+  <!-- Main Title (Foreground & Crisp) -->
+  <text x="100" y="185" class="title" filter="url(#dropShadow)">
+    Awesome SaaS Demo &amp; Trial Management
+  </text>
+
+  <!-- Subtitle (Foreground & Clear) -->
+  <text x="100" y="230" class="subtitle">
+    Interactive Product Demos • Self-Hosted Demo Automation • Trial Sandbox Platforms
+  </text>
+
+  <!-- Interactive Feature Badges Bar -->
+  <g transform="translate(100, 265)">
+    <!-- Badge 1 -->
+    <g transform="translate(0, 0)">
+      <rect width="210" height="40" rx="10" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <text x="15" y="25" class="badge-text" fill="#38bdf8">💻 Interactive Demos</text>
+    </g>
+    <!-- Badge 2 -->
+    <g transform="translate(225, 0)">
+      <rect width="200" height="40" rx="10" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <text x="15" y="25" class="badge-text" fill="#a7f3d0">⚙️ Demo-as-Code</text>
+    </g>
+    <!-- Badge 3 -->
+    <g transform="translate(440, 0)">
+      <rect width="220" height="40" rx="10" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <text x="15" y="25" class="badge-text" fill="#fef08a">🧪 Trial Sandboxes</text>
+    </g>
+    <!-- Badge 4 -->
+    <g transform="translate(675, 0)">
+      <rect width="210" height="40" rx="10" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <text x="15" y="25" class="badge-text" fill="#f472b6">⭐ Open-Source Tools</text>
+    </g>
+  </g>
+</svg>

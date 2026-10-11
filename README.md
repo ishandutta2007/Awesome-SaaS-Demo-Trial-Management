@@ -1,7 +1,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-SaaS-Demo-Trial-Management/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-SaaS-Demo-Trial-Management?style=for-the-badge&color=gold&logo=github" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-SaaS-Demo-Trial-Management/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-SaaS-Demo-Trial-Management?style=for-the-badge&color=gold&logo=github" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-SaaS-Demo-Trial-Management/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-SaaS-Demo-Trial-Management?style=for-the-badge&color=blue&logo=github" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-SaaS-Demo-Trial-Management/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge" alt="License" /></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -68,9 +68,9 @@ Below is a curated table of leading commercial SaaS platforms for interactive de
 
 ## 💻 Open-Source GitHub Projects
 
-Below is a curated selection of top open-source projects, demo builders, guided tour engines, and demo-as-code frameworks, sorted by **GitHub Star Count (descending)**.
+Below is a curated selection of top open-source projects, demo builders, guided tour engines, and demo-as-code frameworks, sorted by **GitHub Stars_Count (descending)**.
 
-| Project & Repo | Description & Key Features | Stars | Tech Stack & License |
+| Project & Repo | Description & Key Features | GitHub_Stars | Tech Stack & License |
 | :--- | :--- | :--- | :--- |
 | 🚗 **[driver.js](https://github.com/kamranahmedse/driver.js)** | Light & powerful vanilla JavaScript engine to drive user focus, interactive product tours, and highlight features across web applications. | [![Stars](https://img.shields.io/github/stars/kamranahmedse/driver.js?style=social&color=white)](https://github.com/kamranahmedse/driver.js/stargazers) | TypeScript, Vanilla JS • MIT |
 | 🌟 **[intro.js](https://github.com/usablica/intro.js)** | Lightweight library for creating step-by-step customer onboarding tours and interactive feature introductions. | [![Stars](https://img.shields.io/github/stars/usablica/intro.js?style=social&color=white)](https://github.com/usablica/intro.js/stargazers) | JavaScript, CSS • AGPL-3.0 |
@@ -104,7 +104,7 @@ Contributions are welcome and greatly appreciated! To contribute:
 
 1. **Fork** this repository.
 2. Edit `README.md` to add your commercial or open-source tool following the established table structure.
-3. Ensure all links, starting prices, free tier details, star badges, and revenue estimates are verified and accurate.
+3. Ensure all links, starting prices, free tier details, Stars_Badges, and revenue estimates are verified and accurate.
 4. Submit a **Pull Request** with a clear description of the added entry.
 
 ---
